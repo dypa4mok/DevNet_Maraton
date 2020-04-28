@@ -108,7 +108,7 @@ for device in (csr1, csr2, csr3):
     # example output - "Cisco IOS XE Software, Version 16.06.05"
 
     # print output hostname device_type soft_ver -license level -CDP status, ntp in sync/not sync.
-    print(hostname.center(10), device_type.center(10), soft_ver.center(50),
+    print(hostname.center(10), device_type.center(10), soft_ver.center(40),
           lic_level.center(15), cdp_status.center(20), ntp_status.center(15), sep=" | ")
 
     # disconnetc session
