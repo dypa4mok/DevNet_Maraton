@@ -3,7 +3,7 @@
 ![Схема](https://github.com/dypa4mok/DevNet_Maraton/blob/master/Lab_scheme.png)
 
 Скрипт devnet_marathon.py запускается на сервере Ubuntu.
-Скрипты выполняет следующие действия:
+Скрипт выполняет следующие действия:
   - настраивает timezone GMT+0
   - настраивает ntp server
   - выполняет бэкап конфигов по пути /var/devnet/{date}/{hostname}-{date}.txt
